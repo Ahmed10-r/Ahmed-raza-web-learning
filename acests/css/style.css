@@ -1,0 +1,76 @@
+:root{
+    --color:
+}
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+section h2{
+    font-size: 2.5rem;
+}
+ul{
+    list-style: none;
+}
+figure{
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-width: 10px;
+    border-style: 10px solid;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+figure img{
+    margin-bottom: -4px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -140px;
+}
+figcaption{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    width: 100%;
+    font-size: 1.875rem;
+}
+figcaption a{
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    color: var(--color1);
+}
+.color2,
+.color a:hover{
+border-color: brown;
+
+}
+.color6,
+.color a:hover{
+border-color: rgb(235, 180, 180);
+
+}
+.color8,
+.color a:hover{
+border-color: rgb(142, 165, 42);
+
+}
+.color4,
+.color a:hover{
+border-color: rgb(42, 140, 165);
+
+}
+.color3,
+.color a:hover{
+border-color: rgb(81, 165, 42);
+
+}
